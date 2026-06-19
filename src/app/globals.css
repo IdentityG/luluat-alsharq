@@ -1,26 +1,200 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Ethiopic:wght@300;400;500;600;700;800;900&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── CSS Variables ─────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-inter:         'Inter', system-ui, sans-serif;
+  --font-noto-ethiopic: 'Noto Sans Ethiopic', serif;
+
+  --brand:     #6BFF3C;
+  --brand-dim: #39d411;
+  --dark:      #0a0a0f;
+  --dark-card: #13131f;
+  --dark-border: rgba(107,255,60,0.15);
+
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.6s ease;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ─── Base Reset ─────────────────────────────────────── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0a0a0f;
+  color: #ffffff;
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Ethiopic Font Support ──────────────────────────── */
+:lang(am),
+:lang(om),
+.font-ethiopic {
+  font-family: var(--font-noto-ethiopic), serif;
+}
+
+/* ─── Custom Scrollbar ───────────────────────────────── */
+::-webkit-scrollbar        { width: 6px; }
+::-webkit-scrollbar-track  { background: #0a0a0f; }
+::-webkit-scrollbar-thumb  { background: #6BFF3C; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #39d411; }
+
+/* ─── Selection ──────────────────────────────────────── */
+::selection {
+  background: rgba(107,255,60,0.3);
+  color: #ffffff;
+}
+
+/* ─── Glassmorphism Utility ──────────────────────────── */
+@layer components {
+  .glass {
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(107,255,60,0.1);
+  }
+
+  .glass-dark {
+    background: rgba(10,10,15,0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(107,255,60,0.08);
+  }
+
+  .glass-brand {
+    background: rgba(107,255,60,0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(107,255,60,0.2);
+  }
+
+  /* Text gradient */
+  .text-gradient {
+    background: linear-gradient(135deg, #6BFF3C, #39d411);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #FFD700, #FFE44D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Glow effects */
+  .glow-brand {
+    box-shadow: 0 0 30px rgba(107,255,60,0.3);
+  }
+
+  .glow-brand-lg {
+    box-shadow: 0 0 60px rgba(107,255,60,0.4),
+                0 0 120px rgba(107,255,60,0.1);
+  }
+
+  /* Brand border */
+  .border-brand-glow {
+    border: 1px solid rgba(107,255,60,0.3);
+    box-shadow: 0 0 20px rgba(107,255,60,0.1),
+                inset 0 0 20px rgba(107,255,60,0.02);
+  }
+
+  /* Section padding */
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24;
+  }
+
+  .section-y {
+    @apply py-16 sm:py-20 lg:py-28;
+  }
+
+  /* Noise texture overlay */
+  .noise-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    opacity: 0.03;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Animated gradient border */
+  .gradient-border {
+    position: relative;
+    background: linear-gradient(#0a0a0f, #0a0a0f) padding-box,
+                linear-gradient(135deg, #6BFF3C, #39d411, #1e7a0b) border-box;
+    border: 1px solid transparent;
+  }
+
+  /* Page transition wrapper */
+  .page-wrapper {
+    @apply min-h-screen bg-dark-900;
+  }
+
+  /* Container max widths */
+  .container-custom {
+    @apply max-w-7xl mx-auto section-padding;
+  }
+}
+
+/* ─── GSAP & Framer defaults ─────────────────────────── */
+.will-animate {
+  will-change: transform, opacity;
+}
+
+/* ─── Loading screen ─────────────────────────────────── */
+.loader-overlay {
+  position: fixed;
+  inset: 0;
+  background: #0a0a0f;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ─── Particle canvas ────────────────────────────────── */
+#particle-canvas {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ─── Focus styles ───────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid #6BFF3C;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Smooth image loading ───────────────────────────── */
+img {
+  transition: opacity 0.3s ease;
+}
+
+/* ─── RTL support (for future Arabic if needed) ──────── */
+[dir="rtl"] {
+  text-align: right;
+}
+
+/* ─── Print styles ───────────────────────────────────── */
+@media print {
+  body { background: white; color: black; }
 }

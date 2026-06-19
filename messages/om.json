@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Mana",
+    "services": "Tajaajilawwan",
+    "process": "Akkamitti Hojjanna",
+    "destinations": "Biyyoota",
+    "about": "Weeynuu",
+    "contact": "Nu Quunnamaa",
+    "apply": "Amma Iyyadhaa"
+  },
+  "hero": {
+    "badge": "Ejensii Hojii Alaa Hayyamamaa · Kan 2015 Irraa Kaasee",
+    "title": "Carraalee",
+    "titleHighlight": "Addunyaa Banaa",
+    "subtitle": "Ejensii hojii alaa Itoophiyaa amanamaa — hojjattoota dandeettii qaban Dubaayi, Saa'udii Arabiyaa, Qaxar fi biyyoota biroo waliin walqunnamsiisa.",
+    "cta_primary": "Amma Iyyadhaa",
+    "cta_secondary": "Dabalata Beeki",
+    "stats_workers": "Hojjattoota Ramadaman",
+    "stats_countries": "Biyyoota",
+    "stats_years": "Waggaa Muuxannoo",
+    "stats_success": "Sadarkaa Milkaa'inaa"
+  },
+  "services": {
+    "badge": "Maal Dhiheessina",
+    "title": "Tajaajilawwan Keenya",
+    "subtitle": "Deeggarsa guutuu imala keessan alaa",
+    "domestic": {
+      "title": "Hojjattoota Mana",
+      "desc": "Maatiwwan alaa tajaajilaniif hojjattoota mana, xiyyeessitootaa fi kunuunsitootaa."
+    },
+    "hospitality": {
+      "title": "Hojjattoota Keessummeessaa",
+      "desc": "Hootelota fi mana nyaataa Gulf keessatti hojjattoota."
+    },
+    "construction": {
+      "title": "Hojjattoota Ijaarsaa",
+      "desc": "Hojjattoota dandeettii qaban pirojektoota ijaarsa gurguddaatiif."
+    },
+    "healthcare": {
+      "title": "Hojjattoota Fayyaa",
+      "desc": "Hospitaalota Gulf tiif naarsootaa fi hojjattoota gargaarsaa fayyaa."
+    },
+    "drivers": {
+      "title": "Konkolaachistoota Ogeeyyii",
+      "desc": "Maatiwwan fi dhaabbilee alaa tiif konkolaachistoota hayyama qaban."
+    },
+    "security": {
+      "title": "Hojjattoota Nageenyaa",
+      "desc": "Tiksitoota leenjifaman dhaabbilee daldalaa fi mana jireenyaatiif."
+    }
+  },
+  "process": {
+    "badge": "Tarkaanfiiwwan Salphaa",
+    "title": "Akkamitti Hojjata",
+    "subtitle": "Tarkaanfii hundumaa keessatti isin ni qajeelchina",
+    "step1": { "title": "Iyyadhaa", "desc": "Foomii iyyannoo keenyaa salphaa odeeffannoo fi sanadoota keessan guutaa." },
+    "step2": { "title": "Ilaalcha Sanadaa", "desc": "Gareen keenya iyyannoo keessan ilaalaa sanadoota hunda mirkaneessa." },
+    "step3": { "title": "Hojii Walsimsiisuun", "desc": "Dandeettii keessan irratti hundaayuun nama isin beeksisuuf sirriitti isin walsimsiisuuf." },
+    "step4": { "title": "Leenjii", "desc": "Deeparchar dura qophii fi leenjii afaanii ni kennama." },
+    "step5": { "title": "Hojmaata Viizaa", "desc": "Hojmaata sanadoota viizaa fi imala hunda nuuf murtteessina." },
+    "step6": { "title": "Deemsa", "desc": "Nagaan deemaa — yeroo ga'an deeggarsi isin eeggata." }
+  },
+  "destinations": {
+    "badge": "Biyyoota Isin Erginu",
+    "title": "Bakkeewwan Ijoo",
+    "subtitle": "Qaxarsiisota biyyoota kanaa waliin hariiroo cimaa qabna",
+    "dubai": { "title": "Dubaayi, UAE", "jobs": "Hojii 5,000+ Jira" },
+    "saudi": { "title": "Saa'udii Arabiyaa", "jobs": "Hojii 3,000+ Jira" },
+    "qatar": { "title": "Qaxar", "jobs": "Hojii 2,000+ Jira" },
+    "kuwait": { "title": "Kuwayt", "jobs": "Hojii 1,500+ Jira" },
+    "bahrain": { "title": "Baahireyn", "jobs": "Hojii 800+ Jira" }
+  },
+  "about": {
+    "badge": "Eenyu Taana",
+    "title": "Weeynuu Luluat Alsharq",
+    "subtitle": "Ejensii hojii alaa hayyamamaa, amanamaa fi muuxannoo qabu",
+    "description": "Luluat Alsharq Foreign Employment Agent PLC bara 2015 irraa kaasee hojjattoota Itoophiyaa carraalee idil-addunyaa waliin walquunnamsiisaa jira. Biiroo Daldalaa Bulchiinsa Magaalaa Finfinneetiin hayyamamee, seerummaa guutuu fi hirmaannaa hojjataa cimaa waliin hojjata.",
+    "mission_title": "Ergama Keenya",
+    "mission": "Hojjattootaaf carraalee hojii nagaa, seeraa fi ulfina qabu dhiheessuuf.",
+    "vision_title": "Mul'ata Keenya",
+    "vision": "Maatii kumaatama hojii idil-addunyaan dandamachiisuuf ejensii amanamaa Itoophiyaa ta'uu.",
+    "license": "Hayyamaa fi Galmaa'e",
+    "license_desc": "Seeraan Itoophiyaa hayyama guutuu qaba — Lakk. Galmeessaa NL/AA/2/0029419/2015",
+    "manager": "Adde Lula Geday Amebaye",
+    "manager_title": "Manaajara Olaanaa"
+  },
+  "contact": {
+    "badge": "Nu Quunnamaa",
+    "title": "Nu Quunnamaa",
+    "subtitle": "Gaaffii keessan hundaaf qophii dha",
+    "phone": "Bilbila",
+    "email": "Imeelii",
+    "address": "Teessoo",
+    "address_value": "Kera Sufi Tower, Kutaa 3ffaa, Biiroo Lakk. 305, Finfinnee",
+    "email_value": "alsharqluluat3@gmail.com",
+    "form_name": "Maqaa Guutuu",
+    "form_phone": "Lakkoobsa Bilbilaa",
+    "form_email": "Teessoo Imeelii",
+    "form_message": "Ergaa Keessan",
+    "form_submit": "Ergaa Ergi",
+    "form_success": "Ergaan milkaa'inaan ergame!"
+  },
+  "apply": {
+    "badge": "Imala Keessan Jalqabaa",
+    "title": "Amma Iyyadhaa",
+    "subtitle": "Tarkaanfii jalqabaa hojii idil-addunyaa keessanitti fudhaa",
+    "name": "Maqaa Guutuu",
+    "age": "Umrii",
+    "phone": "Lakkoobsa Bilbilaa",
+    "education": "Sadarkaa Barnootaa",
+    "experience": "Muuxannoo Hojii",
+    "destination": "Bakka Filatame",
+    "job_type": "Gosa Hojii",
+    "submit": "Iyyannoo Galchi",
+    "success": "Iyyannoon fudhanne! Sa'aatii 48 keessatti isin quunnamna."
+  },
+  "footer": {
+    "tagline": "Michuu amanamaa hojii idil-addunyaa keessanitti.",
+    "quicklinks": "Liinkii Saffisaa",
+    "contact": "Odeeffannoo Quunnamtii",
+    "follow": "Nu Hordofaa",
+    "rights": "Mirgi kunneen seeraan eegama.",
+    "company": "Luluat Alsharq Foreign Employment Agent PLC"
+  },
+  "common": {
+    "learn_more": "Dabalata Beeki",
+    "apply_now": "Amma Iyyadhaa",
+    "contact_us": "Nu Quunnamaa",
+    "read_more": "Dabalata Dubbisi",
+    "loading": "Fe'aa jira...",
+    "back": "Deebi'i",
+    "next": "Itti Aanaa"
+  }
+}

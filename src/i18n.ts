@@ -1,0 +1,33 @@
+import { getRequestConfig } from "next-intl/server";
+import { notFound }         from "next/navigation";
+
+export const locales        = ["en", "am", "om"] as const;
+export type  Locale         = (typeof locales)[number];
+export const defaultLocale: Locale = "en";
+
+export const localeNames: Record<Locale, string> = {
+  en: "English",
+  am: "አማርኛ",
+  om: "Afaan Oromoo",
+};
+
+export const localeFlags: Record<Locale, string> = {
+  en: "🇬🇧",
+  am: "🇪🇹",
+  om: "🇪🇹",
+};
+
+export default getRequestConfig(async ({ requestLocale }) => {
+  const locale = await requestLocale;
+
+  if (!locale || !locales.includes(locale as Locale)) {
+    notFound();
+  }
+
+  return {
+    locale,
+    messages: (
+      await import(`../messages/${locale}.json`)
+    ).default,
+  };
+});

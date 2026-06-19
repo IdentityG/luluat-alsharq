@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "process": "How It Works",
+    "destinations": "Destinations",
+    "about": "About Us",
+    "contact": "Contact",
+    "apply": "Apply Now"
+  },
+  "hero": {
+    "badge": "Licensed Employment Agency · Est. 2015",
+    "title": "Your Gateway to",
+    "titleHighlight": "Global Opportunities",
+    "subtitle": "Ethiopia's trusted foreign employment agency connecting skilled workers with life-changing opportunities in Dubai, Saudi Arabia, Qatar, and beyond.",
+    "cta_primary": "Apply Now",
+    "cta_secondary": "Learn More",
+    "stats_workers": "Workers Placed",
+    "stats_countries": "Countries",
+    "stats_years": "Years Experience",
+    "stats_success": "Success Rate"
+  },
+  "services": {
+    "badge": "What We Offer",
+    "title": "Our Services",
+    "subtitle": "Comprehensive support for your journey abroad",
+    "domestic": {
+      "title": "Domestic Workers",
+      "desc": "Housemaids, cleaners, and caregivers for families abroad."
+    },
+    "hospitality": {
+      "title": "Hospitality Staff",
+      "desc": "Hotel and restaurant workers for top Gulf establishments."
+    },
+    "construction": {
+      "title": "Construction Workers",
+      "desc": "Skilled laborers for major construction projects."
+    },
+    "healthcare": {
+      "title": "Healthcare Workers",
+      "desc": "Nurses and medical support staff for Gulf hospitals."
+    },
+    "drivers": {
+      "title": "Professional Drivers",
+      "desc": "Licensed drivers for families and companies abroad."
+    },
+    "security": {
+      "title": "Security Personnel",
+      "desc": "Trained guards for commercial and residential use."
+    }
+  },
+  "process": {
+    "badge": "Simple Steps",
+    "title": "How It Works",
+    "subtitle": "We guide you every step of the way",
+    "step1": { "title": "Apply Online", "desc": "Fill out our simple application form with your details and documents." },
+    "step2": { "title": "Document Review", "desc": "Our team reviews your application and verifies all documents." },
+    "step3": { "title": "Job Matching", "desc": "We match you with the perfect employer based on your skills." },
+    "step4": { "title": "Training", "desc": "Pre-departure orientation and language training provided." },
+    "step5": { "title": "Visa Processing", "desc": "We handle all visa and travel document processing for you." },
+    "step6": { "title": "Departure", "desc": "Travel with confidence knowing support awaits on arrival." }
+  },
+  "destinations": {
+    "badge": "Where We Send You",
+    "title": "Top Destinations",
+    "subtitle": "We have strong partnerships with employers in these countries",
+    "dubai": { "title": "Dubai, UAE", "jobs": "5,000+ Jobs Available" },
+    "saudi": { "title": "Saudi Arabia", "jobs": "3,000+ Jobs Available" },
+    "qatar": { "title": "Qatar", "jobs": "2,000+ Jobs Available" },
+    "kuwait": { "title": "Kuwait", "jobs": "1,500+ Jobs Available" },
+    "bahrain": { "title": "Bahrain", "jobs": "800+ Jobs Available" }
+  },
+  "about": {
+    "badge": "Who We Are",
+    "title": "About Luluat Alsharq",
+    "subtitle": "A licensed, trusted, and experienced foreign employment agency",
+    "description": "Luluat Alsharq Foreign Employment Agent PLC has been connecting Ethiopian workers with international opportunities since 2015. Licensed by the Addis Ababa City Administration Trade Bureau, we operate with full legal compliance and deep commitment to worker welfare.",
+    "mission_title": "Our Mission",
+    "mission": "To provide safe, legal, and dignified employment opportunities to Ethiopian workers while building lasting partnerships with trusted employers worldwide.",
+    "vision_title": "Our Vision",
+    "vision": "To be Ethiopia's most trusted and transparent foreign employment agency, empowering thousands of families through international employment.",
+    "license": "Licensed & Registered",
+    "license_desc": "Fully licensed under Ethiopian law — Registration No. NL/AA/2/0029419/2015",
+    "manager": "Mrs. Lula Geday Amebaye",
+    "manager_title": "General Manager"
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Contact Us",
+    "subtitle": "We're here to answer all your questions",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "address_value": "Kera Sufi Tower, 3rd Floor, Office No. 305, Addis Ababa",
+    "email_value": "alsharqluluat3@gmail.com",
+    "form_name": "Full Name",
+    "form_phone": "Phone Number",
+    "form_email": "Email Address",
+    "form_message": "Your Message",
+    "form_submit": "Send Message",
+    "form_success": "Message sent successfully!"
+  },
+  "apply": {
+    "badge": "Start Your Journey",
+    "title": "Apply Now",
+    "subtitle": "Take the first step toward your international career",
+    "name": "Full Name",
+    "age": "Age",
+    "phone": "Phone Number",
+    "education": "Education Level",
+    "experience": "Work Experience",
+    "destination": "Preferred Destination",
+    "job_type": "Job Category",
+    "submit": "Submit Application",
+    "success": "Application submitted! We will contact you within 48 hours."
+  },
+  "footer": {
+    "tagline": "Your trusted partner for international employment.",
+    "quicklinks": "Quick Links",
+    "contact": "Contact Info",
+    "follow": "Follow Us",
+    "rights": "All rights reserved.",
+    "company": "Luluat Alsharq Foreign Employment Agent PLC"
+  },
+  "common": {
+    "learn_more": "Learn More",
+    "apply_now": "Apply Now",
+    "contact_us": "Contact Us",
+    "read_more": "Read More",
+    "loading": "Loading...",
+    "back": "Back",
+    "next": "Next"
+  }
+}
