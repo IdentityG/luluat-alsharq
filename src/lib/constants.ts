@@ -30,7 +30,6 @@ export const DESTINATIONS = [
 export const NAV_LINKS = [
   { href: "/",            key: "nav.home" },
   { href: "/services",   key: "nav.services" },
-  { href: "/process",    key: "nav.process" },
   { href: "/destinations", key: "nav.destinations" },
   { href: "/about",      key: "nav.about" },
   { href: "/contact",    key: "nav.contact" },
