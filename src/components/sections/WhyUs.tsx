@@ -161,7 +161,7 @@ export default function WhyUs() {
                           flex flex-col md:flex-row items-center
                           justify-around gap-8 text-center">
             {[
-              { num: "5,000+", label: "Happy workers placed abroad" },
+              { num: "2,000+", label: "Happy workers placed abroad" },
               { num: "9+",     label: "Years of trusted service" },
               { num: "100%",   label: "Legal & government licensed" },
               { num: "24/7",   label: "Support for our workers" },

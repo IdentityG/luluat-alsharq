@@ -979,7 +979,7 @@ export default function ApplyClient() {
               {/* Stats row */}
               <div className="flex flex-wrap gap-3 pt-2">
                 {[
-                  { v: "5,000+", l: { en: "Placed Workers",   am: "የተቀጠሩ ሰራተኞች",   om: "Hojjattoota Ramadaman" } },
+                  { v: "2,000+", l: { en: "Placed Workers",   am: "የተቀጠሩ ሰራተኞች",   om: "Hojjattoota Ramadaman" } },
                   { v: "98%",    l: { en: "Success Rate",     am: "የስኬት ምጣኔ",       om: "Sadarkaa Milkaa'inaa"  } },
                   { v: "48h",    l: { en: "Response Time",    am: "የምላሽ ጊዜ",        om: "Yeroo Deebii"          } },
                 ].map((s, i) => (

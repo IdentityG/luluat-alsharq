@@ -34,9 +34,9 @@ function Particle({
 }
 
 const STATS = [
-  { value: 5000, suffix: "+", label: "Workers Placed",  labelAm: "የተቀጠሩ",       labelOm: "Ramadaman"  },
+  { value: 2000, suffix: "+", label: "Workers Placed",  labelAm: "የተቀጠሩ",       labelOm: "Ramadaman"  },
   { value: 5,    suffix: "+", label: "Countries",       labelAm: "ሀገሮች",          labelOm: "Biyyoota"   },
-  { value: 9,    suffix: "+", label: "Years Experience",labelAm: "ዓመታት ልምድ",    labelOm: "Muuxannoo"  },
+  { value: 15,   suffix: "+", label: "Years Experience",labelAm: "ዓመታት ልምድ",    labelOm: "Muuxannoo"  },
   { value: 98,   suffix: "%", label: "Success Rate",    labelAm: "የስኬት ምጣኔ",    labelOm: "Milkaa'ina" },
 ];
 
@@ -296,6 +296,23 @@ export default function Hero() {
               {t("hero.cta_secondary")}
             </motion.button>
           </Link>
+
+          <a href="/gcc_slip.pdf" download="gcc_slip.pdf" target="_blank" rel="noopener noreferrer">
+            <motion.button
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.97 }}
+              className="group flex items-center gap-3 px-8 py-4 rounded-2xl
+                         glass border border-brand/40 text-brand font-semibold
+                         text-base hover:bg-brand/10 transition-all duration-300
+                         min-w-[200px] justify-center"
+            >
+              <div className="w-8 h-8 rounded-full bg-brand/20 flex items-center
+                              justify-center group-hover:bg-brand/30 transition-colors">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              </div>
+              Download GCC Slip
+            </motion.button>
+          </a>
         </div>
 
         {/* Stats */}

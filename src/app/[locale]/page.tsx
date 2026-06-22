@@ -5,6 +5,7 @@ import WhyUs        from "@/components/sections/WhyUs";
 import Destinations from "@/components/sections/Destinations";
 import Process      from "@/components/sections/Process";
 import Testimonials from "@/components/sections/Testimonials";
+import Gallery      from "@/components/sections/Gallery";
 import CTA          from "@/components/sections/CTA";
 
 export default function HomePage() {
@@ -17,6 +18,7 @@ export default function HomePage() {
       <Destinations />
       <Process />
       <Testimonials />
+      <Gallery />
       <CTA />
     </>
   );

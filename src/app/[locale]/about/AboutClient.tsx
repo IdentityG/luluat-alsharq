@@ -166,8 +166,8 @@ const TEAM_MEMBERS = [
       om: "Muuxannoo waggaa 10 ol lamisaawwan hojii alaa keessatti qaban waliin, Adde Lula hojjattoota Itoophiyaatiif carraalee hojii nagaa, seeraa fi ulfina qabu kennuuf mul'ata qabatanii Luluat Alsharq hundeessan.",
     },
     stats: [
-      { label: "Years Experience", value: "10+" },
-      { label: "Workers Placed",   value: "5k+" },
+      { label: "Years Experience", value: "15+" },
+      { label: "Workers Placed",   value: "2k+" },
       { label: "Countries",        value: "5+"  },
     ],
   },
@@ -208,7 +208,7 @@ const TEAM_MEMBERS = [
       om: "Gareen leenjii keenya hojjataa hunda dura deemsa dura dandeettii afaanii, beekumsa aadaa fi leenjii hojii-addaatiin qopheessa.",
     },
     stats: [
-      { label: "Workers Trained", value: "5k+" },
+      { label: "Workers Trained", value: "2k+" },
       { label: "Languages",       value: "3+"  },
       { label: "Programs",        value: "12+" },
     ],
@@ -510,8 +510,8 @@ export default function AboutClient() {
             {/* Stats row */}
             <div className="flex flex-wrap gap-4 pt-2">
               {[
-                { value: 5000, suffix: "+", label: "Workers Placed" },
-                { value: 9,    suffix: "+", label: "Years Active"   },
+                { value: 2000, suffix: "+", label: "Workers Placed" },
+                { value: 15,   suffix: "+", label: "Years Active"   },
                 { value: 5,    suffix: "+", label: "Countries"      },
                 { value: 98,   suffix: "%", label: "Success Rate"   },
               ].map((s, i) => (

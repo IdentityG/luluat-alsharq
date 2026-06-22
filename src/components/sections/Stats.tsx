@@ -28,9 +28,9 @@ const BORDER_COLORS = [
 ];
 
 const STATS = [
-  { value: 5000, suffix: "+", key: "hero.stats_workers" },
+  { value: 2000, suffix: "+", key: "hero.stats_workers" },
   { value: 5,    suffix: "+", key: "hero.stats_countries" },
-  { value: 9,    suffix: "+", key: "hero.stats_years" },
+  { value: 15,    suffix: "+", key: "hero.stats_years" },
   { value: 98,   suffix: "%", key: "hero.stats_success" },
 ];
 

@@ -13,15 +13,15 @@ export const COMPANY = {
 } as const;
 
 export const STATS = [
-  { value: 5000,  suffix: "+", label_key: "hero.stats_workers" },
+  { value: 2000,  suffix: "+", label_key: "hero.stats_workers" },
   { value: 5,     suffix: "+", label_key: "hero.stats_countries" },
-  { value: 9,     suffix: "+", label_key: "hero.stats_years" },
+  { value: 15,    suffix: "+", label_key: "hero.stats_years" },
   { value: 98,    suffix: "%", label_key: "hero.stats_success" },
 ] as const;
 
 export const DESTINATIONS = [
   { id: "dubai",   flag: "🇦🇪", country: "UAE",          color: "#00732F" },
-  { id: "saudi",   flag: "🇸🇦", country: "Saudi Arabia", color: "#006C35" },
+  { id: "saudi",   flag: "🇸🇦", country: "Saudi- Riyadh and Abha", color: "#006C35" },
   { id: "qatar",   flag: "🇶🇦", country: "Qatar",        color: "#8D1B3D" },
   { id: "kuwait",  flag: "🇰🇼", country: "Kuwait",       color: "#007A3D" },
   { id: "bahrain", flag: "🇧🇭", country: "Bahrain",      color: "#CE1126" },
