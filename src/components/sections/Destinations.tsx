@@ -12,15 +12,15 @@ import { DESTINATIONS } from "@/lib/constants";
 const DEST_IMAGES = [
   "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&q=80",
   "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?w=600&q=80",
-  "https://images.unsplash.com/photo-1507272931001-fc06c17e4f43?w=600&q=80",
-  "https://images.unsplash.com/photo-1519458246479-e07a67e3d4f5?w=600&q=80",
-  "https://images.unsplash.com/photo-1579820010410-c10411aaaa88?w=600&q=80",
+  "/images/destinations/qatar.webp",
+  "/images/destinations/kuawit.webp",
+  "/images/destinations/bahiren.webp",
 ];
 
 const DEST_KEYS = ["dubai", "saudi", "qatar", "kuwait", "bahrain"] as const;
 
 export default function Destinations() {
-  const t      = useTranslations();
+  const t = useTranslations();
   const locale = useLocale();
 
   return (
