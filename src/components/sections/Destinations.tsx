@@ -14,10 +14,9 @@ const DEST_IMAGES = [
   "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?w=600&q=80",
   "/images/destinations/qatar.webp",
   "/images/destinations/kuawit.webp",
-  "/images/destinations/bahiren.webp",
 ];
 
-const DEST_KEYS = ["dubai", "saudi", "qatar", "kuwait", "bahrain"] as const;
+const DEST_KEYS = ["dubai", "saudi", "qatar", "kuwait"] as const;
 
 export default function Destinations() {
   const t = useTranslations();

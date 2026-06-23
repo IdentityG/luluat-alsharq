@@ -1,36 +1,35 @@
 export const COMPANY = {
-  name:        "Luluat Alsharq",
-  fullName:    "Luluat Alsharq Foreign Employment Agent PLC",
-  nameAm:      "ሉሉአት አልሸርቅ በውጭ ሀገር ስራና ሰራተኛ አገናኝ ኃ/የ/የግ/ማህበር",
-  phone1:      "+251912646492",
-  phone2:      "+251922118272",
-  email:       "alsharqluluat3@gmail.com",
-  address:     "Kera Sufi Tower, 3rd Floor, Office No. 305, Addis Ababa",
-  tin:         "0086099722",
-  license:     "NL/AA/2/0029419/2015",
+  name: "Luluat Alsharq",
+  fullName: "Luluat Alsharq Foreign Employment Agent PLC",
+  nameAm: "ሉሉአት አልሸርቅ በውጭ ሀገር ስራና ሰራተኛ አገናኝ ኃ/የ/የግ/ማህበር",
+  phone1: "+251912646492",
+  phone2: "+251922118272",
+  email: "alsharqluluat3@gmail.com",
+  address: "Kera Sufi Tower, 3rd Floor, Office No. 305, Addis Ababa",
+  tin: "0086099722",
+  license: "NL/AA/2/0029419/2015",
   established: "2015",
-  manager:     "Mrs. Lula Geday Amebaye",
+  manager: "Mrs. Lula Geday Amebaye",
 } as const;
 
 export const STATS = [
-  { value: 2000,  suffix: "+", label_key: "hero.stats_workers" },
-  { value: 5,     suffix: "+", label_key: "hero.stats_countries" },
-  { value: 15,    suffix: "+", label_key: "hero.stats_years" },
-  { value: 98,    suffix: "%", label_key: "hero.stats_success" },
+  { value: 2000, suffix: "+", label_key: "hero.stats_workers" },
+  { value: 5, suffix: "+", label_key: "hero.stats_countries" },
+  { value: 15, suffix: "+", label_key: "hero.stats_years" },
+  { value: 98, suffix: "%", label_key: "hero.stats_success" },
 ] as const;
 
 export const DESTINATIONS = [
-  { id: "dubai",   flag: "🇦🇪", country: "UAE",          color: "#00732F" },
-  { id: "saudi",   flag: "🇸🇦", country: "Saudi- Riyadh and Abha", color: "#006C35" },
-  { id: "qatar",   flag: "🇶🇦", country: "Qatar",        color: "#8D1B3D" },
-  { id: "kuwait",  flag: "🇰🇼", country: "Kuwait",       color: "#007A3D" },
-  { id: "bahrain", flag: "🇧🇭", country: "Bahrain",      color: "#CE1126" },
+  { id: "dubai", flag: "🇦🇪", country: "UAE", color: "#00732F" },
+  { id: "saudi", flag: "🇸🇦", country: "Saudi- Riyadh and Abha", color: "#006C35" },
+  { id: "qatar", flag: "🇶🇦", country: "Qatar", color: "#8D1B3D" },
+  { id: "kuwait", flag: "🇰🇼", country: "Kuwait", color: "#007A3D" },
 ] as const;
 
 export const NAV_LINKS = [
-  { href: "/",            key: "nav.home" },
-  { href: "/services",   key: "nav.services" },
+  { href: "/", key: "nav.home" },
+  { href: "/services", key: "nav.services" },
   { href: "/destinations", key: "nav.destinations" },
-  { href: "/about",      key: "nav.about" },
-  { href: "/contact",    key: "nav.contact" },
+  { href: "/about", key: "nav.about" },
+  { href: "/contact", key: "nav.contact" },
 ] as const;
