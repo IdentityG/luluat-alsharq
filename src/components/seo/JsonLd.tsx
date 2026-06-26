@@ -17,7 +17,7 @@ export function OrganizationJsonLd() {
     name: COMPANY.fullName,
     alternateName: [COMPANY.name, COMPANY.nameAm],
     url: "https://www.luluatalsharq.com",
-    logo: "https://www.luluatalsharq.com/icons/logo.png",
+    logo: "https://www.luluatalsharq.com/logos.png",
     image: "https://www.luluatalsharq.com/images/og-image.jpg",
     description:
       "Licensed Ethiopian foreign employment agency connecting skilled workers with opportunities in Dubai, Saudi Arabia, Qatar, Kuwait and Bahrain. Over 2000+ workers deployed with 98% success rate.",

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import {
@@ -50,11 +51,15 @@ export default function Footer() {
           <motion.div variants={staggerItem} className="lg:col-span-1 space-y-5">
             {/* Logo */}
             <Link href={localHref("/")} className="flex items-center gap-3 group">
-              <div className="w-12 h-12 rounded-xl bg-gradient-brand
-                              flex items-center justify-center
-                              text-dark-900 font-black text-lg shadow-brand
+              <div className="w-12 h-12 rounded-xl flex items-center justify-center
                               group-hover:shadow-brand-lg transition-shadow">
-                LA
+                <Image
+                  src="/logos.png"
+                  alt="Luluat Alsharq Logo"
+                  width={48}
+                  height={48}
+                  className="w-full h-full object-contain drop-shadow-[0_0_8px_rgba(163,230,53,0.4)]"
+                />
               </div>
               <div>
                 <p className="font-black text-white text-base leading-none">

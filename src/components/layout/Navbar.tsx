@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";
@@ -102,12 +103,14 @@ export default function Navbar() {
                 transition={{ type: "spring", stiffness: 400 }}
                 className="relative w-10 h-10 lg:w-12 lg:h-12"
               >
-                {/* Logo placeholder — brand-colored glow box */}
-                <div className="w-full h-full rounded-xl bg-gradient-brand
-                                flex items-center justify-center
-                                shadow-brand text-dark-900 font-black text-lg">
-                  LA
-                </div>
+                <Image
+                  src="/logos.png"
+                  alt="Luluat Alsharq Logo"
+                  width={48}
+                  height={48}
+                  className="w-full h-full object-contain drop-shadow-[0_0_8px_rgba(163,230,53,0.4)]"
+                  priority
+                />
               </motion.div>
               <div className="hidden sm:block">
                 <p className="font-black text-white text-sm lg:text-base leading-none">
