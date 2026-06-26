@@ -147,7 +147,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2">
               {(
-                ["dubai", "saudi", "qatar", "kuwait", "bahrain"] as const
+                ["dubai", "saudi", "qatar", "kuwait"] as const
               ).map((dest) => (
                 <li key={dest}>
                   <Link
