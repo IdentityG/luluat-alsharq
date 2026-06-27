@@ -5,12 +5,14 @@ import Badge from "@/components/ui/Badge";
 import FadeIn from "@/components/animations/FadeIn";
 
 const IMAGES = [
-  { src: "/images/gallery/1.JPG", alt: "Gallery image 1" },
-  { src: "/images/gallery/2.JPG", alt: "Gallery image 2" },
-  { src: "/images/gallery/3.JPG", alt: "Gallery image 3" },
-  { src: "/images/gallery/4.JPG", alt: "Gallery image 4" },
-  { src: "/images/gallery/5.JPG", alt: "Gallery image 5" },
-  { src: "/images/gallery/6.JPG", alt: "Gallery image 6" },
+  { src: "/images/gallery/i1.jpg", alt: "Gallery image 1" },
+  { src: "/images/gallery/i2.jpg", alt: "Gallery image 2" },
+  { src: "/images/gallery/i3.jpg", alt: "Gallery image 3" },
+  { src: "/images/gallery/i4.jpg", alt: "Gallery image 4" },
+  { src: "/images/gallery/i5.jpg", alt: "Gallery image 5" },
+  { src: "/images/gallery/i6.jpg", alt: "Gallery image 6" },
+  { src: "/images/gallery/i7.jpg", alt: "Gallery image 7" },
+  { src: "/images/gallery/i8.jpg", alt: "Gallery image 8" },
 ];
 
 export default function Gallery() {
