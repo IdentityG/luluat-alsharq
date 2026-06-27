@@ -170,7 +170,7 @@ export default function DestinationsClient() {
                 { v: DESTINATIONS_DATA.length, suffix: "", label: { en: "Countries", am: "ሀገሮች", om: "Biyyoota" } },
                 { v: totalJobs, suffix: "+",  label: { en: "Total Jobs", am: "ጠቅላላ ስራዎች", om: "Hojii Waliigalaa" } },
                 { v: 98, suffix: "%",         label: { en: "Success Rate", am: "የስኬት ምጣኔ", om: "Sadarkaa Milkaa'inaa" } },
-                { v: 9,  suffix: "+",         label: { en: "Years Active", am: "ዓመታት ንቁ", om: "Waggaa Hojii" } },
+                { v: 15,  suffix: "+",         label: { en: "Years Active", am: "ዓመታት ንቁ", om: "Waggaa Hojii" } },
               ].map((s, i) => (
                 <div
                   key={i}

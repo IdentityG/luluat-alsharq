@@ -162,7 +162,7 @@ export default function WhyUs() {
                           justify-around gap-8 text-center">
             {[
               { num: "2,000+", label: "Happy workers placed abroad" },
-              { num: "9+",     label: "Years of trusted service" },
+              { num: "15+",     label: "Years of trusted service" },
               { num: "100%",   label: "Legal & government licensed" },
               { num: "24/7",   label: "Support for our workers" },
             ].map((item, i) => (
